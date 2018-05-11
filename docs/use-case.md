@@ -12,3 +12,10 @@
         * if not consider performance
         * work like xinet
 
+2. Monitor Process Status
+    1. ExecStopPost
+        * Invoke script while service stop
+    2. DBUS
+        * Monitor process status via dbus api
+        * library: https://github.com/coreos/go-systemd
+
